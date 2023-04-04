@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #side-drawer li {
+    @apply py-3.5 px-5 cursor-pointer hover:text-nord-9;
+  }
+  #side-drawer a {
+    @apply flex items-center;
+  }
+  #side-drawer span {
+    @apply mr-4 w-5 h-5;
+  }
+  #side-drawer p {
+    @apply text-sm font-medium;
+  }
+}
+
+@layer components {
+}
